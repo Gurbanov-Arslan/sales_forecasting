@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "sales_forecasting"
+version = "0.1.0"
+description = ""
+authors = ["andreeadeselnicu <adeselnicu@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+plotly = "^5.14.0"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+ipykernel = "^6.22.0"
+jinja2 = "^3.1.2"
+scikit-learn = "^1.2.2"
+pydantic = "^1.10.7"
+nbformat = "^5.8.0"
+kaleido = "0.2.1"
+cython = "0.29.23"
+mlflow = "^2.3.1"
+lightgbm = "^3.3.5"
+optuna = "^3.1.1"
+holidays = "0.11.1"
+lunarcalendar = "^0.0.9"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
